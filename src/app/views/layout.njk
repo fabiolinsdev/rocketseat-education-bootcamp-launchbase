@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends "layout.njk" %}
+<html>
+    <head>
+
+       {% block head %}}
+     <title>launchstore</title>
+       {% endblock %}
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+     <link rel="stylesheet" href="/styles.CSS">
+    </head>
+<body>
+
+    {% include "parts/header.njk" %}
+    
+    {% block content %} {% endblock %}}
+
+    {% include "parts/footer.njk" %}
+  </body>
+</html>
